@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 47514000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Sales executive logged into the machine",
+            "match": {
+              "location": "stepGlue.StepDef.sales_executive_logged_into_the_machine111()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-30T04:47:45.461Z",
+        "line": 31,
+        "name": "Search a product",
+        "description": "",
+        "id": "pixel-store-pos;search-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 491000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Larry searches for products in the search field",
+            "match": {
+              "location": "stepGlue.StepDef.larry_searches_for_products_in_the_search_field(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Head"
+                ]
+              },
+              {
+                "cells": [
+                  "Hand"
+                ]
+              },
+              {
+                "cells": [
+                  "Lap"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "io.cucumber.java.PendingException: TODO: implement me\r\n\tat stepGlue.StepDef.larry_verifies_the_product_availabiliy(StepDef.java:44)\r\n\tat ✽.Larry verifies the product availabiliy(file:///C:/Users/Training_H2a.09.22/eclipse-workspace/28JanCucum/demo28jan.feature:37)\r\n",
+              "duration": 3000000,
+              "status": "pending"
+            },
+            "line": 37,
+            "name": "Larry verifies the product availabiliy",
+            "match": {
+              "location": "stepGlue.StepDef.larry_verifies_the_product_availabiliy()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@datadriven"
+          }
+        ]
+      }
+    ],
+    "name": "Pixel store pos",
+    "description": "",
+    "id": "pixel-store-pos",
+    "keyword": "Feature",
+    "uri": "file:demo28jan.feature",
+    "tags": []
+  }
+]

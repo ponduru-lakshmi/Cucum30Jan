@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49486" started-at="2020-01-28T10:07:38Z" finished-at="2020-01-28T10:08:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49486" started-at="2020-01-28T10:07:38Z" finished-at="2020-01-28T10:08:28Z">
+      <class name="testmeapp.OnlineShoppingTest">
+        <test-method status="PASS" signature="startReportBeforeTest()[pri:0, instance:testmeapp.OnlineShoppingTest@604ed9f0]" name="startReportBeforeTest" is-config="true" duration-ms="13698" started-at="2020-01-28T10:07:38Z" finished-at="2020-01-28T10:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReportBeforeTest -->
+        <test-method status="PASS" signature="testLogin()[pri:2, instance:testmeapp.OnlineShoppingTest@604ed9f0]" name="testLogin" duration-ms="21903" started-at="2020-01-28T10:07:52Z" finished-at="2020-01-28T10:08:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testmeapp.OnlineShoppingTest@604ed9f0]" name="getResult" is-config="true" duration-ms="3" started-at="2020-01-28T10:08:14Z" finished-at="2020-01-28T10:08:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=OnlineShoppingTest.testLogin()[pri:2, instance:testmeapp.OnlineShoppingTest@604ed9f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testCart()[pri:3, instance:testmeapp.OnlineShoppingTest@604ed9f0]" name="testCart" duration-ms="2411" started-at="2020-01-28T10:08:14Z" finished-at="2020-01-28T10:08:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method status="PASS" signature="testPayment()[pri:4, instance:testmeapp.OnlineShoppingTest@604ed9f0]" name="testPayment" duration-ms="6456" started-at="2020-01-28T10:08:16Z" finished-at="2020-01-28T10:08:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testmeapp.OnlineShoppingTest@604ed9f0]" name="getResult" is-config="true" duration-ms="0" started-at="2020-01-28T10:08:16Z" finished-at="2020-01-28T10:08:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCart status=SUCCESS method=OnlineShoppingTest.testCart()[pri:3, instance:testmeapp.OnlineShoppingTest@604ed9f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:testmeapp.OnlineShoppingTest@604ed9f0]" name="getResult" is-config="true" duration-ms="1" started-at="2020-01-28T10:08:23Z" finished-at="2020-01-28T10:08:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPayment status=SUCCESS method=OnlineShoppingTest.testPayment()[pri:4, instance:testmeapp.OnlineShoppingTest@604ed9f0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReportAfterTest()[pri:0, instance:testmeapp.OnlineShoppingTest@604ed9f0]" name="endReportAfterTest" is-config="true" duration-ms="4957" started-at="2020-01-28T10:08:23Z" finished-at="2020-01-28T10:08:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportAfterTest -->
+      </class> <!-- testmeapp.OnlineShoppingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

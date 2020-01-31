@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" parallel="tests" >
+  <test name="Chrome" >
+    <classes>
+       <class name="demo_testng.Demotest2"/>
+       <class name="demo_testng.DemoTest">
+       <methods>
+       <exclude name="register"></exclude>
+       </methods>
+    </class>
+    </classes>
+  </test>
+ 
+  <test name="IE">
+    <classes>
+      <class name="demo_testing.DemoTest2"/>
+      
+    </classes>
+  </test>
+</suite>

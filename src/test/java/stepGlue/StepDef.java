@@ -12,11 +12,38 @@ import org.openqa.selenium.WebDriver;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import pages.LoginPage;
 
 public class StepDef {
 	WebDriver driver;
-	
-	@When("Larry searches for products in the search field")
+	@Given("User navigated to login page")
+	public void user_navigated_to_login_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new io.cucumber.java.PendingException();
+		driver=DriverUtil.getDriver("chrome");
+		driver.get("http://10.232.237.143:443/TestMeApp/fetchcat.htm");
+	    LoginPage lp=new LoginPage(driver);
+	    lp.SignIn.click();
+		
+	}
+
+	@When("user enters username and password")
+	public void user_enters_username_and_password() {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new io.cucumber.java.PendingException();
+		LoginPage.Username.sendKeys("Lalitha");
+		LoginPage.Password.sendKeys("password123");
+	}
+
+	@Then("user logged in successfully")
+	public void user_logged_in_successfully() {
+	    // Write code here that turns the phrase above into concrete actions
+	    //throw new io.cucumber.java.PendingException();
+	    
+	} 
+	    
+	}
+	/*@When("Larry searches for products in the search field")
 	public void larry_searches_for_products_in_the_search_field(io.cucumber.datatable.DataTable dataTable) {
 	    // Write code here that turns the phrase above into concrete actions
 	    // For automatic transformation, change DataTable to one of
@@ -112,4 +139,4 @@ public class StepDef {
 	    //throw new io.cucumber.java.PendingException();
 	}
 
-}
+}*/
